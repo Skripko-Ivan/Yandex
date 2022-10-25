@@ -1,0 +1,18 @@
+﻿  main.c
+C:\Users\1610036\source\repos\База данных\База данных\main.h(26,8): warning C4013: printf: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(447,62): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(449,62): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(457,68): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(459,68): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(467,65): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(469,65): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(479,80): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(481,80): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(491,71): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(493,71): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(503,65): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(505,65): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(515,68): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(517,68): warning C4133: функция: несовместимые типы - из "mytree *" в "data *"
+C:\Users\1610036\source\repos\База данных\База данных\main.c(196): warning C4715: find: значение возвращается не при всех путях выполнения
+  База данных.vcxproj -> C:\Users\1610036\source\repos\База данных\Debug\База данных.exe
