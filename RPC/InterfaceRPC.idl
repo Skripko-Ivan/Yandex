@@ -1,0 +1,30 @@
+//атрибуты
+[
+	uuid(7ac9967a-6d7b-44c5-9764-3359219a9e4f),  // сгенерирован с помощью утилиты uuidgen
+	version(1.0)
+]
+interface InterfaceRPC {
+	unsigned char login(
+		[in, string] const unsigned char* username,  // [in, string] - атрибут string указывает, что приходит строка
+		[in, string] const unsigned char* password
+	);
+	void logout(
+	);
+	unsigned char getFileSize(
+		[in, string] const unsigned char* file_name,
+		[out] unsigned int* file_size  // указатель для передачи в метод NdrClientCall3
+	);
+	unsigned char downloadFile(
+		[in, string] const unsigned char* file_name,
+		[in] unsigned int file_size,  // клиент получает заранее с помощь метода getFileSize
+		[out, size_is(file_size + 1)] unsigned char* data  // size_is показывает размер выделяемого буфера
+	);
+	unsigned char uploadFile(
+		[in, string] const unsigned char* file_name,
+		[in] unsigned int file_size,
+		[in, size_is(file_size + 1)] unsigned char* data
+	);
+	unsigned char deleteFile(
+		[in, string] const unsigned char* file_name
+	);
+}
